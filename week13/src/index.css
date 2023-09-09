@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* this changes the navbar background and paddng */
+.navbar {
+
+  background-color: aqua;
+  padding: 0;
+  margin: 0;
+
+  
+ 
+  
+}
+/* this effects the unordered list in the navbar with text style and position*/
+nav ul {
+  text-align: right;
+  padding: 5px;
+  margin: 0px;
+  font-weight: bold;
+ 
+}
+/*this effects the bullet points used in the navbar*/
+nav ul li {
+  list-style-type: disc;
+  list-style-position: inside;
+  
+}
+/*this affects the border and text style size and font for the Login header*/
+.login {
+  border-style: solid;
+  border-radius: 5px;
+  text-align: center;
+  border-width: 1px;
+  font-size: 2rem;
+}
+/*this controls the text postion and size as well as border radius for the login forms which are the
+inputs as well as the submit buttons and the border that surrounds them*/
+.form {
+  text-align: center;
+  font-size: 1rem;
+  border-style: solid;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 1px;
+  padding: 1px;
+}
+/*this affects the title zize postion and background color*/
+.title {
+  text-align: center;
+  background-color: aqua;
+  padding: 0;
+  margin: 0;
+  font-size: 3rem;
+}
+/*this creates a hover effect changing the background color 1when you are positioned over a list item in the navbar*/
+nav ul li:hover {
+  background-color: blue;
+
+}
+/*this creates an effect when you click on the list items inside the navbar changing the background color on click*/
+nav ul li:active {
+  background-color: red;
+
+}
